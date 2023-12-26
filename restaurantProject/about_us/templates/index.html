@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'CSS2/style.css' %}">
+
+<div class="container">
+  <div class="rest_title">
+    <h1>PRONAY'S RESTAURANT</h1>
+  </div>
+
+  <div class="about_img">
+    <img class = "rest_img" src="{% static 'images/rest.jpg'%}" alt="">
+  </div>
+  <br>
+  <p>
+    Some businesses operating in the restaurant industry can be described as family-style restaurants. These can be formal or casual, although casual is more common, and an emphasis is placed on food served on platters, with customers sharing the food ordered and putting it on their own plates. Additionally, the atmosphere will be family-focused, and alcohol options will likely be more limited than fine dining and casual restaurants.
+  </p>
+</div>
+  
+
+{% endblock %}

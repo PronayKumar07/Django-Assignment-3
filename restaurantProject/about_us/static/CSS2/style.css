@@ -1,0 +1,15 @@
+.rest_img{
+  padding-top: 20px;
+  width: 50%;
+  height: 50%;
+}
+
+.rest_title{
+  color: blue;
+}
+
+.container{
+  padding-top: 50px;
+  text-align: center;
+  align-items: center;
+}
